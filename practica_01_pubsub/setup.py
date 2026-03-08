@@ -1,6 +1,6 @@
 from setuptools import find_packages, setup
 
-package_name = 'curso_pkf_in'
+package_name = 'practica_01_pubsub'
 
 setup(
     name=package_name,
@@ -20,7 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'my_node = curso_pkf_in.my_node:main'
+        'publisher_node = practica_01_pubsub.publisher_node:main',
+        'subscriber_node = practica_01_pubsub.subscriber_node:main',
         ],
     },
 )

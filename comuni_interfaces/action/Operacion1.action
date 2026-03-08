@@ -1,0 +1,10 @@
+# Goal
+int64 numero
+int64 iteraciones
+---
+# Result
+int64 resultado
+---
+# Feedback
+int64 iteraciones_restantes
+int64 resultado_parcial
