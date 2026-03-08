@@ -6,7 +6,7 @@
 
 Ejecutar los nodos: `ros2 run ...`
 
-###Ejemplo demostración
+### Ejemplo demostración
 Ejecución de ejercicio de repaso de clase
 ```
 ros2 launch basic_cpp_pkg experience.launch.py config_file:=demo_service-action.yaml
